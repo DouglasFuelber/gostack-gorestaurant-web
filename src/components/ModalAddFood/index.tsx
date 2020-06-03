@@ -43,7 +43,6 @@ const ModalAddFood: React.FC<IModalProps> = ({
         price,
         description,
       });
-
       setIsOpen();
     },
     [handleAddFood, setIsOpen],
